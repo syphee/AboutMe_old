@@ -1,0 +1,73 @@
+/* Courses overflow section */
+.admission-overflow{
+    max-height: 300px;
+    overflow: scroll;
+}
+
+
+/* Page sections */
+#section1, #section2, #section3,#section4 {
+    height: 800px !important;
+
+}
+
+#section1 {
+    margin-top: 300px;
+
+    background: url(../images/Background/about-me.gif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+#section2{
+    background: url(../images/Background/lennart-butz-ukiyo2.gif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+#section3{
+    background: url(../images/Background/lennart-butz-idea5anim4.gif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+#section4 {
+    background: url(../images/Background/gBxP6oJ.gif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+
+.spacing{
+    margin-top: 200px;
+}
+
+.spacing-bottom{
+    margin-bottom: 8vh;
+    padding-bottom: 8vh;
+}
+
+.intro {
+    margin-top: 150px;
+}
+
+#about-me {
+    margin-top: 200px;
+}
+
+
+
+.about-me-header{
+
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+

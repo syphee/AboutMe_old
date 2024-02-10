@@ -1,0 +1,21 @@
+
+body {
+    background-image: url(../images/Background/3517019.gif);
+    background-color: rgb(199, 198, 197) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+
+    font-family: 'Raleway', sans-serif !important;
+    height: 100vh;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+textarea{
+    resize: none;
+}

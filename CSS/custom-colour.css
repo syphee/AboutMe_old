@@ -1,0 +1,64 @@
+.offcanvas{
+    background-color: rgba(12, 12, 12, 0.42) !important;
+
+}
+
+.btn-primary{
+    background-color:rgb(7, 78, 91) !important;
+}
+
+
+.buttonlink{
+
+    box-shadow: 0px 0px 5px rgb(19, 19, 19);
+    border-radius: 20px;
+    padding: 5px;
+
+    transition: 0.3s;
+
+    color: black;
+
+}
+
+.buttonlink:hover{
+    transition: 0.3s;
+    background-color:  rgb(77, 6, 242);
+
+    color: white;
+    
+}
+
+
+
+.backtotopbtn {
+
+    box-shadow: 0px 0px 5px rgb(19, 19, 19);
+    border-radius: 2px;
+}
+
+
+
+
+.bg-oxford-blue {
+    background-color: #1522349a;
+}
+
+.bg-denim-blue {
+    background-color:rgb(7, 78, 91);
+}
+
+.bg-sapphire-blue{
+    background-color: #1768AC;
+}
+
+.bg-black-transparent{
+    background-color: rgba(0, 0, 0, 0.463);
+}
+
+.bg-autumn-orange{
+    background-color: #cc541d;
+}
+
+.bg-crimson-red{
+    background-color: #790920;
+}

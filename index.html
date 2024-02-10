@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing</title>
+
+ 
+  <link rel="icon" type="image/x-icon" href="../CA2/images/favicon.ico">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Javascripts  Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  <!-- CSS Files -->
+  <!-- Default layout -->
+  <link rel="stylesheet" href="CSS/default_styles.css">
+
+  <!-- Type writer -->
+  <link rel="stylesheet" href="CSS/typerwriter.css">
+
+  <!-- Dimensions -->
+  <link rel="stylesheet" href="CSS/dimensions.css">
+
+  <!-- Custom Colours -->
+  <link rel="stylesheet" href="CSS/custom-colour.css">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="CSS/animations.css">
+
+
+
+</head>
+
+<body>
+  <br id="header">
+
+  <!-- Navigation footer -->
+  <!-- Offcanvas, taken from w3schools -->
+  <!-- Visible only when screens are small -->
+
+
+  <!-- Header Page nav (mobile devices)-->
+  <nav class="d-lg-none d-md-none d-xxl-none  ">
+    <div class="offcanvas offcanvas-end" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-white ">About me</h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body row container">
+        <hr class="text-dark d-flex ">
+        <a href="index.html"
+          class=" row  text-decoration-none my-5 p-2 icon-light ">About me</a>
+        <a href="my_life.html"
+          class=" row  text-decoration-none my-5 p-2 icon-light">MyLife@SP</a>
+        <a href="my_career.html"
+          class="row  text-decoration-none my-5 p-2 icon-light ">My Career
+          Options</a>
+        <a href="feedback.html"
+          class="row  text-decoration-none my-5 p-2 icon-light">Contact me</a>
+
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <button class="btn btn-light text-light float-end bg-transparent" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#demo">
+        <i class="bi bi-list "></i>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- Header page nav ( Big devices ) -->
+  <nav class="d-none d-md-block text-focus-in">
+
+    <ul class="nav justify-content-center ">
+      <li class="nav-item mb-1 ">
+        <a class="nav-link text-white hover-underline-animation fw-bolder border-end " href="index.html">About me</a>
+      </li>
+      <li class="nav-item mx-5">
+        <a class="nav-link text-white hover-underline-animation" href="my_life.html">MyLife@SP</a>
+      </li>
+      <li class="nav-item mx-5">
+        <a class="nav-link text-white hover-underline-animation" href="my_career.html">My Career Options</a>
+      </li>
+      <li class="nav-item mb-5">
+        <a class="nav-link text-white hover-underline-animation" href="feedback.html">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <!-- I am James Landicho -->
+  <main>
+
+
+    <!-- Text -->
+
+    <header>
+
+      <section class="intro">
+
+        <!-- Title -->
+        <div class="p-4 my-1 text-focus-in">
+          <p class="text-light fw-normal ">I am,</p>
+
+          <p class="text-white fw-light display-3 fs-sm-1">
+            James Landicho <br> An aspiring <br>
+            <span class="txt-type fw-bold fs-sm-1" data-wait="3000"
+              data-words='["Software Developer", "UI / UX Developer", "Creator"]'></span>
+          </p>
+
+          <div>
+
+
+            <!-- Navigator -->
+            <!-- Visible when screen is small -->
+            <div class="dropdown d-lg-none d-md-none">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">About me</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#section1">About me</a></li>
+                <li><a class="dropdown-item" href="#section2">My Values</a></li>
+                <li><a class="dropdown-item" href="#section3">My Personality</a></li>
+                <li><a class="dropdown-item" href="#section4">My Interests</a></li>
+              </ul>
+            </div>
+
+            <!-- Hidden when screen is small -->
+            <div class="my-2 p-3 d-none d-md-block d-lg-block d-xxl-block ">
+              <a href="#section1" class="rounded-pill text-decoration-none p-3 icon hover">About me</a>
+              <a href="#section2" class="rounded-pill text-decoration-none p-3 icon">My Values</a>
+              <a href="#section3" class="rounded-pill text-decoration-none  p-3 icon">My
+                Personality</a>
+              <a href="#section4" class="rounded-pill text-decoration-none  p-3 icon">My
+                Interests</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </header>
+
+
+    <!-- About me -->
+    <article class="gradient-bg">
+      <section class="m-0 p-0">
+
+        <div class="container-fluid">
+
+          <!-- About me -->
+          <div class="row p-5 d-flex  " id="section1">
+
+            <!-- Buttons -->
+            <div class="col-lg-auto d-flex align-items-center reveal rounded-pill justify-content-center">
+
+
+              <div class=" bg-denim-blue p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block">
+                <div class="text-center">
+                  <a href="#header"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+
+                <div class="d-flex">
+                  <i class="bi bi-info-circle fs-2 px-3 text-white"></i>
+                  <h1 class="align-baseline text-white">About me</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section2"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <!-- Main content -->
+            <div class="col d-flex align-items-start   ">
+
+
+
+              <div class="row reveal align-items-center">
+                <div class="d-flex align-items-end justify-content-between">
+
+                  <h1 class="align-baseline fst-italic text-white rounded p-3">About me</h1>
+                  <img src="../CA2/images/Pictures/about-me.jpg" alt="asd"
+                    class="w-25 img-thumbnail rounded-circle border border-dark ">
+
+                </div>
+
+                <div class="accordion p-3 m-0 accordion-flush  rounded ">
+                  <div class="accordion-item bg-transparent m-0">
+
+                    <p class=" accordion-body collapse collapsing p-3  text-white m-0 bg-dark bg-opacity-50 "
+                      id="aboutme-1" data-bs-parent="#section1">
+
+                      <strong class="fs-1 fw-bold ">Hello!</strong><br>
+                      My name is Landicho James Evans Arvesu, and I am a Year 1 Student in Singapore Polytechnic
+                      Pursuing a Diploma in Information Technology. <br><br>
+                      I am from the Philippines, however I lived in Singapore ever since I was a year old - so I often
+                      confuse whether I consider myself being a real Filipino when
+                      I have stayed in Singapore longer than my home country. <br><br>
+
+                      Outside school, I play as a keyboardist for a church every 3rd sunday of the month as service. We
+                      occasionaly have perfomances throughout the year too.
+
+                    </p>
+                  </div>
+
+                  <div class="accordion-item bg-transparent">
+                    <p class=" accordion-body collapse collapsing p-3   text-white bg-dark bg-opacity-50 "
+                      id="aboutme-2" data-bs-parent="#section1">
+                      <strong class="fs-1 fw-bold">My Aspirations for the future</strong><br>
+                      Seeing the world evolve with technology, I am inspired to be part of the evolution and dream to
+                      further challenge how far technology can go, and this is why I wanted to pursue a course in
+                      IT; to make the impossible - possible.
+
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class=" text-nowrap">
+                  <a href="#aboutme-1"
+                    class=" hover-underline-animation  text-white text-decoration-none fw-bold p-2 m-0 accordion-header border-end  "
+                    data-bs-toggle="collapse">About me</a>
+                  <a href="#aboutme-2"
+                    class=" hover-underline-animation text-white text-decoration-none fw-bold  p-2 m-0 accordion-header "
+                    data-bs-toggle="collapse">My
+                    aspirations</a>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <!-- My Values-->
+          <div
+            class="row p-5   d-flex mt-0 flex-wrap-reverse flex-md-wrap-reverse flex-lg-wrap flex-xl-wrap flex-xxl-wrap "
+            id="section2">
+            <div class="col reveal text-dark d-flex align-items-start">
+              <div class="row d-flex    ">
+                <div class="d-flex align-items-end justify-content-between">
+
+                  <h1 class="align-baseline fst-italic text-white ">My Values</h1>
+                  <img src="../CA2/images/Pictures/my-values.jpg" alt="asd" class="w-25 img-thumbnail rounded-circle ">
+
+                </div>
+
+                <!-- Content accordion -->
+                <div class="accordion p-2 m-0 accordion-flush  ">
+                  <div class="accordion-item text-white m-0 bg-transparent">
+
+                    <p class="accordion-body collapse collapsing p-3 m-0  bg-dark bg-opacity-50 " id="myvalues-1"
+                      data-bs-parent="#section2">
+                      <strong class="fs-1 fw-bold">Hardworking</strong><br>
+                      I consider myself hardworking as I strive to improve myself on my weak areas. Though seeing other
+                      people doing <br>
+                      better than me with minimal effort , I tend to sometimes lose motivation / consistency in my
+                      effort. <br> Despite that,
+                      i strive to better myself each day.
+                    </p>
+
+                  </div>
+
+                  <div class="accordion-item text-white bg-transparent ">
+                    <p class="accordion-body collapse collapsing m-0  bg-dark bg-opacity-50 " id="myvalues-2"
+                      data-bs-parent="#section2">
+                      <strong class="fs-1 fw-bold">Optimistic</strong><br>
+                      I Believe in the mindset:"Failure leads to success". <br><br>
+
+                      I Believe that there will always be a solution to any problems we face,as long as we look <br>
+                      at the bright side of things and take it as a challenge to build yourself as a person.
+                    </p>
+                  </div>
+
+                  <div class="accordion-item text-white bg-transparent">
+                    <p class="accordion-body collapse collapsing m-0  bg-dark bg-opacity-50 " id="myvalues-3"
+                      data-bs-parent="#section2">
+                      <strong class="fs-1 fw-bold">Open-Minded</strong><br>
+                      I believe that having an open mind to things is an important value to have when working as a team,
+                      <br>
+                      as we all have to be flexible with our different ideas, and decide what is best for the overall
+                      growth <br>
+                      a group.
+                    </p>
+                  </div>
+
+                </div>
+
+                <!-- Btns -->
+                <div class="d-flex">
+                  <a href="#myvalues-1"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 accordion-header border-end"
+                    data-bs-toggle="collapse">Hardworking</a>
+                  <a href="#myvalues-2"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 accordion-header border-end"
+                    data-bs-toggle="collapse">Optimistic</a>
+                  <a href="#myvalues-3"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 accordion-header"
+                    data-bs-toggle="collapse">Open-minded</a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <!-- Pill -->
+            <div class="col-lg-auto d-flex align-items-center reveal justify-content-center text-white">
+              <div class=" bg-autumn-orange p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block ">
+                <div class="text-center">
+                  <a href="#section1"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+                <div class="d-flex">
+                  <i class="bi bi-person-bounding-box fs-2 px-3"></i>
+                  <h1>My values</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section3"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+          <!-- My Personality -->
+          <div class="row p-5   d-flex " id="section3">
+            <div class="col-lg-auto d-flex align-items-center  justify-content-center reveal p-1 img-fluid">
+
+              <div class=" bg-crimson-red p-3 rounded-pill  d-none d-md-block d-lg-block d-xxl-block">
+                <div class="text-center">
+                  <a href="#section2"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+
+                <div class="d-flex align-items-end">
+                  <i class="bi bi-person-lines-fill fs-2 px-3 text-light"></i>
+                  <h1 class="align-baseline text-white">My Personality</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section4"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <div class="col d-flex align-items-start reveal  ">
+              <div class="row reveal align-items-center ">
+
+                <div class="d-flex justify-content-between text-white align-items-end">
+                  <h1 class=" fst-italic">My Personality</h1>
+                  <img src="../CA2/images/Pictures/my-personality.jpg" alt="asd"
+                    class="w-25 img-thumbnail rounded-circle border border-dark ">
+                </div>
+
+                <div class="accordion text-white accordion-flush p-2 m-0">
+                  <div class="accordion-item bg-transparent ">
+
+                    <p class=" accordion-body collapse collapsing p-3   m-0 bg-dark bg-opacity-50 " id="mypersonality-1"
+                      data-bs-parent="#section3">
+                      <strong class="fs-1 fw-bold">Introverted</strong><br><br>
+
+                      Having an introverted personality, I find it hard to say out my opinions without
+                      a push from my fellow peers.
+
+                  </div>
+
+                  <div class="accordion-item bg-white bg-transparent">
+
+                    <p class=" accordion-body collapse collapsing p-3   m-0 bg-dark bg-opacity-50 " id="mypersonality-2"
+                      data-bs-parent="#section3">
+                      <strong class="fs-1 fw-bold">Resilient</strong><br><br>
+
+                      Similar to being optimistic, I do not give up easily as I believe that any problem
+                      can be overcome as long as we put our heart to it.
+                    </p>
+
+                  </div>
+
+
+                  <div class="accordion-item bg-white bg-transparent">
+
+                    <p class=" accordion-body collapse collapsing p-3   m-0 bg-dark bg-opacity-50 " id="mypersonality-3"
+                      data-bs-parent="#section3">
+                      <strong class="fs-1 fw-bold">Adventurous</strong><br><br>
+                      I enjoy exploring new ideas that other people may not be open with working on .
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <div class=" d-flex">
+                  <a href="#mypersonality-1"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 border-end"
+                    data-bs-toggle="collapse">Introverted</a>
+                  <a href="#mypersonality-2"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 border-end"
+                    data-bs-toggle="collapse">Resilient</a>
+                  <a href="#mypersonality-3" class=" hover-underline-animation text-white text-decoration-none  p-2 m-0"
+                    data-bs-toggle="collapse">Adventurous</a>
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <!-- My Interests -->
+          <div
+            class="row p-5 mb-6   d-flex flex-wrap-reverse flex-md-wrap-reverse flex-lg-wrap flex-xl-wrap flex-xxl-wrap"
+            id="section4">
+
+
+            <div class="col reveal text-white d-flex align-items-start">
+              <div class="row reveal">
+
+                <div class="d-flex align-items-end justify-content-between">
+                  <h1 class="align-baseline fst-italic ">My Interests</h1>
+                  <img src="../CA2/images/Pictures/my-interests.jpg" alt="asd"
+                    class="w-25 img-thumbnail rounded-circle border border-dark ">
+                </div>
+
+                <!-- Making music -->
+                <div class="accordion accordion-flush p-2 m-0  ">
+
+                  <div class="accordion-item  bg-transparent ">
+                    <div class="accordion-body collapse collapsing p-3  m-0 bg-dark bg-opacity-50 rounded" id="myinterests-1"
+                      data-bs-parent="#section4">
+                      <div class="text-wrap">
+                        <strong class="fs-1 fw-bold">Making Music</strong><br><br>
+
+                        Making music is my go-to thing to do whenever I have time to burn. Making music also helps me
+                        express my feelings in a way that people can relate to too.
+                      </div>
+
+                      <div class="mb-0 p-3 bg-white w-50 rounded">
+                        <a href="https://linktr.ee/syphee" class=" text-decoration-none p-3  ">Click here to be
+                          redirected to my music page.</a>
+
+                        <!-- Soundcloud embed -->
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1218663511&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                          <a href="https://soundcloud.com/user-764846068" title="Jaems" target="_blank"
+                            style="color: #cccccc; text-decoration: none;">Jaems</a> · <a
+                            href="https://soundcloud.com/user-764846068/twice-fancy-jaems-bootleg-remix"
+                            title="TWICE &quot;트와이스&quot; - FANCY - [ Jaems Bootleg Remix ]" target="_blank"
+                            style="color: #cccccc; text-decoration: none;">TWICE &quot;트와이스&quot; - FANCY - [ Jaems
+                            Bootleg Remix ]</a>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                  <!-- Taking photographs -->
+                  <div class="accordion-item bg-transparent ">
+                    <div class="accordion-body collapse collapsing p-3 row  m-0 bg-dark bg-opacity-50 "
+                      id="myinterests-2" data-bs-parent="#section4">
+                      <div>
+                        <p class="row text-wrap">
+                          <strong class="fs-1 fw-bold">Taking Photographs</strong><br><br>
+
+                          Similarly, taking photos also help me to express my feelings. I believe that any
+                          photo tells a beautiful story behind it; be it a photo of the sunset, or even a photo
+                          of a busy street.
+                        </p>
+                      </div>
+
+
+                      <div class="mt-5 p-3 bg-white rounded-pill w-50">
+                        <a href="https://www.instagram.com/"
+                          class="text-decoration-none p-3  text-wrap ">Click here to be redirected to my
+                          photographs.</a>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="accordion-item bg-transparent ">
+                    <div class="accordion-body collapse collapsing p-3   m-0 bg-dark bg-opacity-50 text-wrap"
+                      id="myinterests-3" data-bs-parent="#section4">
+                      <strong class="fs-1 fw-bold">Walking in nature</strong><br><br>
+
+                      Walking around greenery helps me disconnect from reality happening around me - I believe it is
+                      important to take a breather from our busy schedules and just take a small portion of our day
+                      to disconnect, and really reflect on ourselves.
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class=" d-flex">
+                  <a href="#myinterests-1"
+                    class=" hover-underline-animation text-decoration-none text-white p-2 m-0 border-end"
+                    data-bs-toggle="collapse">Making music</a>
+                  <a href="#myinterests-2"
+                    class=" hover-underline-animation text-decoration-none text-white p-2 m-0 border-end"
+                    data-bs-toggle="collapse">Taking photographs</a>
+                  <a href="#myinterests-3" class=" hover-underline-animation text-decoration-none text-white p-2 m-0"
+                    data-bs-toggle="collapse">Nature walks</a>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="col-lg-auto d-flex align-items-center reveal p-1 text-white  justify-content-center">
+
+              <div class=" bg-denim-blue p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block">
+                <div class="text-center">
+                  <a href="#section3"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+
+                <div class="d-flex ">
+                  <i class="bi bi-person-plus-fill fs-2 px-3"></i>
+                  <h1>My Interests</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section1"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+    </article>
+
+  </main>
+
+
+
+
+
+  <!-- Footer -->
+  <footer
+    class="d-flex justify-items-center bg-transparent bg-gradient  text-light py-sm-2 py-md-3 fw-light fixed-bottom ">
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-md">
+          <p class="m-0 fs-6 ">Copyright &copy; James, 2022. All rights reserved.</p>
+        </div>
+
+        <div class="col text-nowrap d-flex align-items-center">
+          <a href="https://www.instagram.com/"><i class="bi bi-instagram mx-4 icon"></i></a>
+          <a href="https://sg.linkedin.com/"><i class="bi bi-linkedin   mx-4 icon"></i></a>
+          <a href="https://twitter.com/"><i class="bi bi-twitter  mx-4 icon"></i></a>
+        </div>
+
+        <div class="col">
+          <a href="#header" class="icon backtotopbtn text-decoration-none align-items-center float-end p-2 d-flex">
+            <i class="bi bi-arrow-up-square justify-content-center"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- JS Features ******************** -->
+  <!-- Typewriter -->
+  <script src="../CA2/Javascript/typewriter.js"></script>
+  <!-- Typewriter taken from https://www.youtube.com/watch?v=POX3dT-pB4E -->
+
+  <!-- On scroll fade in -->
+  <script src="../CA2/Javascript/scroll-anim.js"></script>
+  <!-- Taken from https://www.codingsnow.com/2021/01/reveal-webpage-elements-on-scroll-on.html -->
+
+
+</body>
+
+</html>

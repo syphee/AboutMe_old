@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Life @ SP</title>
+
+
+  <link rel="icon" type="image/x-icon" href="../CA2/images/favicon.ico">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Javascripts  Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  <!-- CSS Files -->
+  <!-- Default layout -->
+  <link rel="stylesheet" href="CSS/default_styles.css">
+
+  <!-- Type writer -->
+  <link rel="stylesheet" href="CSS/typerwriter.css">
+
+  <!-- Dimensions -->
+  <link rel="stylesheet" href="CSS/dimensions.css">
+
+  <!-- Custom Colours -->
+  <link rel="stylesheet" href="CSS/custom-colour.css">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="CSS/animations.css">
+
+</head>
+
+<body>
+  <br id="header">
+
+  <!-- Navigation footer -->
+  <!-- Offcanvas, taken from w3schools -->
+  <!-- Visible only when screens are small -->
+
+
+  <!-- Header Page nav (mobile devices)-->
+  <nav class="d-lg-none d-md-none d-xxl-none  ">
+    <div class="offcanvas offcanvas-end" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-white ">MyLife@SP</h1>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body row container">
+        <hr class="text-dark d-flex ">
+        <a href="index.html"
+          class=" row  text-decoration-none my-5 p-2 icon-light ">About me</a>
+        <a href="my_life.html"
+          class=" row  text-decoration-none my-5 p-2 icon-light">MyLife@SP</a>
+        <a href="my_career.html"
+          class="row  text-decoration-none my-5 p-2 icon-light ">My Career
+          Options</a>
+        <a href="feedback.html"
+          class="row  text-decoration-none my-5 p-2 icon-light">Contact me</a>
+
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <button class="btn btn-light text-light float-end bg-transparent" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#demo">
+        <i class="bi bi-list "></i>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- Header page nav ( Big devices ) -->
+  <nav class="d-none d-md-block text-focus-in">
+
+    <ul class="nav justify-content-center ">
+      <li class="nav-item mb-1 ">
+        <a class="nav-link text-white hover-underline-animation fw-bolder border-end " href="my_life.html">MyLife@SP</a>
+      </li>
+      <li class="nav-item mx-5">
+        <a class="nav-link text-white hover-underline-animation" href="my_career.html">My Career Options</a>
+      </li>
+      <li class="nav-item mx-5">
+        <a class="nav-link text-white hover-underline-animation" href="index.html">About me</a>
+      </li>
+      <li class="nav-item mb-5">
+        <a class="nav-link text-white hover-underline-animation" href="feedback.html">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <!-- I am James Landicho -->
+  <main>
+    <!-- 
+            Things to do:
+
+            - Loading screen when side open
+            - Fix section img to text issue
+            - try to implement sidenav instead of headernav
+
+            - Bootstrap carousel 
+            https://getbootstrap.com/docs/5.2/components/carousel/#how-it-works
+         -->
+
+
+    <!-- Text -->
+
+    <header>
+
+      <section class="intro">
+
+        <!-- Title -->
+        <div class="p-4 my-1 text-focus-in">
+          <p class="text-light fw-normal ">My life at,</p>
+
+          <p class="text-white fw-light display-3 fs-sm-1">
+
+            <span class="txt-type fw-bold  fs-sm-1" data-wait="3000"
+              data-words='["Singapore Polytechnic", "SP School of Computing", "The SP rience "]'></span>
+          </p>
+
+          <div>
+
+
+            <!-- Navigator -->
+            <!-- Visible when screen is small -->
+            <div class="dropdown d-lg-none d-md-none">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">My Life @ SP</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#section1">Enrolment</a></li>
+                <li><a class="dropdown-item" href="#section2">Polytechnic Foundation Programme</a></li>
+                <li><a class="dropdown-item" href="#section3">School of Computing</a></li>
+
+              </ul>
+            </div>
+
+            <!-- Hidden when screen is small -->
+            <div class="my-2 p-3 d-none d-md-block d-lg-block d-xxl-block ">
+              <a href="#section1" class="rounded-pill text-decoration-none  p-3 icon hover">Enrolment</a>
+              <a href="#section2" class="rounded-pill text-decoration-none  p-3 icon">Polytechnic Foundation
+                Programme</a>
+              <a href="#section3" class="rounded-pill text-decoration-none p-3 icon">School of Computing</a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </header>
+
+
+    <!-- enrolment -->
+    <article class="gradient-bg">
+      <section class="container-fluid m-0 p-0">
+
+        <div class="container-fluid text-dark ">
+
+          <!-- enrolment -->
+          <div class="row p-5 d-flex  " id="section1">
+
+            <div
+              class="col-lg-auto d-flex align-items-center reveal rounded-pill about-me-header justify-content-center">
+
+
+              <div class=" bg-denim-blue p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block">
+                <div class="text-center">
+                  <a href="#header"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+
+                <div class="d-flex">
+
+                  <i class="bi bi-book fs-2 px-3 text-white"></i>
+                  <h1 class="align-baseline text-white">Enrolment</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section2"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <div class="col d-flex align-items-start reveal">
+
+
+              <div class="row reveal m-0  py-5 rounded">
+                <div class="d-flex align-items-end justify-content-between">
+
+                  <h1 class="align-baseline fst-italic text-white rounded p-3">Enrolment</h1>
+                  <img src="../CA2/images/Pictures/enrolment.jpg" alt="asd"
+                    class="w-25 img-thumbnail rounded-circle border border-dark ">
+
+                </div>
+
+                <div class="accordion p-2 m-0 accordion-flush  rounded ">
+                  <div class="accordion-item bg-transparent">
+
+
+                    <div
+                      class="col accordion-body  collapse collapsing p-2 row text-white m-0 overflow-auto admission-overflow bg-dark bg-opacity-50 rounded "
+                      id="aboutme-1" data-bs-parent="#section1">
+                      <p>
+                        <strong class="fs-1 fw-bold ">Admission Requirements</strong><br>
+                        Admission requirements to SP Differs for each course. Scroll down and Click on the links below
+                        to be redirected
+                        to
+                        the SP website.
+                      </p>
+
+                      <!-- SOC -->
+                      <section class="row ">
+
+                        <a href="https://www.sp.edu.sg/soc" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Computing</strong>
+                          <img src="../CA2/images/Courses/soc-web-banner.jpg" alt="SOC" class="w-75">
+                        </a>
+
+                      </section>
+
+                      <!-- MAD -->
+                      <section class="row ">
+
+                        <a href="https://www.sp.edu.sg/mad" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Media Arts and Design</strong>
+                          <img src="../CA2/images/Courses/fa_211202_spoh2022_webbanners_desktop_mad.jpg" alt="MAD"
+                            class="w-75">
+                        </a>
+
+                      </section>
+
+                      <!--SB -->
+                      <section class="row">
+
+                        <a href="https://www.sp.edu.sg/sb" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Business</strong>
+                          <img src="../CA2/images/Courses/fa_211202_spoh2022_webbanners_desktop_sb.jpg" alt="SB"
+                            class="w-75">
+                        </a>
+
+
+                      </section>
+
+                      <!-- ENGINEERING -->
+                      <section class="row">
+
+                        <a href="https://www.sp.edu.sg/engineering" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Engineering</strong>
+                          <img
+                            src="../CA2/images/Courses/spoh2022_webbanners_desktop_maef9510d1ffec646619d5aff85bd72c499.gif"
+                            alt="ENGINEERING" class="w-75">
+                        </a>
+
+                      </section>
+
+                      <!-- CLS -->
+                      <section class="row">
+
+                        <a href="https://www.sp.edu.sg/cls/" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Chemical Life Sciences</strong>
+                          <img src="../CA2/images/Courses/CLS-Banner.jpg" alt="CLS" class="w-75">
+                        </a>
+
+                      </section>
+
+                      <!-- ABE -->
+                      <section class="row">
+
+                        <a href="https://www.sp.edu.sg/abe" class="row text-decoration-none text-white">
+                          <strong class="fs-6 fw-bold ">School of Architecture & the Built Environment</strong>
+                          <img src="../CA2/images/Courses/fa_211202_spoh2022_webbanners_desktop_abe.jpg" alt="ABE"
+                            class="w-75">
+                        </a>
+
+                      </section>
+                    </div>
+
+
+
+
+                  </div>
+
+                  <div class="accordion-item bg-transparent">
+                    <p class=" accordion-body collapse collapsing p-3   text-white bg-dark bg-opacity-50 rounded"
+                      id="aboutme-2" data-bs-parent="#section1">
+                      <strong class="fs-1 fw-bold">My Admission into SP</strong><br>
+
+                      I was admitted to Singapore polytechnic after my N' Levels in 2019. Back then, I was under the
+                      Polytechnic Foundation
+                      Programme, where N' Level Students were given a chance to go to Polytechnic straight away after N'
+                      Levels to complete a
+                      foundation year.
+
+
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="text-nowrap">
+                  <a href="#aboutme-1"
+                    class=" hover-underline-animation  text-white text-decoration-none fw-bold p-2 m-0 accordion-header border-end  "
+                    data-bs-toggle="collapse">Requirements</a>
+                  <a href="#aboutme-2"
+                    class=" hover-underline-animation text-white text-decoration-none fw-bold  p-2 m-0 accordion-header "
+                    data-bs-toggle="collapse">My admission into SP</a>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <!-- PFP-->
+          <div
+            class="row p-5   d-flex mt-0 flex-wrap-reverse flex-md-wrap-reverse flex-lg-wrap flex-xl-wrap flex-xxl-wrap "
+            id="section2">
+            <div class="col reveal text-dark d-flex align-items-start">
+              <div class="row reveal d-flex ">
+                <div class="d-flex align-items-end justify-content-between">
+
+                  <h1 class="align-baseline fst-italic text-white ">Polytechnic Foundation Programme</h1>
+                  <img src="../CA2/images/PFP.jpg" alt="asd" class="w-25 img-thumbnail rounded-circle ">
+
+                </div>
+
+                <!-- Content accordion -->
+                <div class="accordion p-2 m-0 accordion-flush  ">
+                  <div class="accordion-item text-white m-0 bg-transparent">
+
+                    <div class="accordion-body collapse collapsing p-3 m-0 row bg-dark bg-opacity-50 " id="myvalues-1"
+                      data-bs-parent="#section2">
+                      <div class="col">
+
+                        <strong class="fs-1 fw-bold">My PFP Experience</strong><br>
+                        In PFP, we were all exposed to the Poly' style environment for learning. It was a life changer
+                        for
+                        me as
+                        I was used to getting spoon-fed by my secondary school teachers to learn things. When I came
+                        into
+                        poly,
+                        I couldn't get used to the 'Self-Directed' learning method; I had a hard time adjusting my old
+                        ways. <br>
+                        As time went by, PFP has taught me to be more self-initiative, and take more responsibility for
+                        my
+                        own learning.
+
+                      </div>
+
+                      <div class="mt-3 p-3 bg-white rounded-pill">
+                        <a href="https://www.sp.edu.sg/sp/admissions/admissions-exercises/polytechnic-foundation-programme-(pfp)/home"
+                          class="text-decoration-none mt-3 p-3  text-wrap ">
+                          Click here to be redirected to SP's PFP Website.
+                        </a>
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+
+                  </div>
+
+                  <div class="accordion-item text-white bg-transparent ">
+                    <p class="accordion-body collapse collapsing m-0 bg-dark bg-opacity-50  " id="myvalues-2"
+                      data-bs-parent="#section2">
+                      <strong class="fs-1 fw-bold">Post PFP</strong><br>
+                      Now that I am in year 1, PFP has allowed me to quickly adjust myself to the pace of the
+                      Polytechnic style of learning. Not only that,
+                      I was also able to share with my fellow peers about my experience and share them my skills I have
+                      learnt during PFP.
+                    </p>
+                  </div>
+
+
+
+                </div>
+
+                <!-- Btns -->
+                <div class="d-flex">
+                  <a href="#myvalues-1"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 accordion-header border-end"
+                    data-bs-toggle="collapse">My Experience</a>
+                  <a href="#myvalues-2"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 accordion-header"
+                    data-bs-toggle="collapse">Post PFP</a>
+
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <!-- Pill -->
+            <div class="col-lg-auto d-flex align-items-center reveal justify-content-center text-white">
+              <div class=" bg-denim-blue p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block">
+                <div class="text-center">
+                  <a href="#section1"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+                <div class="d-flex">
+                  <i class="bi bi-person-bounding-box fs-2 px-3"></i>
+                  <h1>PFP</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section3"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+          <!-- SP School of computing-->
+          <div class="row p-5   d-flex spacing-bottom" id="section3">
+            <div class="col-lg-auto d-flex align-items-center justify-content-center reveal p-1 img-fluid">
+
+              <div class=" bg-denim-blue p-3 rounded-pill d-none d-md-block d-lg-block d-xxl-block  ">
+                <div class="text-center">
+                  <a href="#section2"><i class="bi bi-chevron-up text-white "></i></a>
+                </div>
+
+
+                <div class="d-flex">
+                  <i class="bi bi-person-lines-fill fs-2 px-3 text-light"></i>
+                  <h1 class="align-baseline text-white">SP'SoC</h1>
+                </div>
+
+                <div class="text-center">
+                  <a href="#section1"><i class="bi bi-chevron-down text-white "></i></a>
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <div class="col d-flex align-items-start reveal">
+              <div class="row reveal ">
+
+                <div class="d-flex align-items-end justify-content-between text-white">
+                  <h1 class="align-baseline fst-italic">School of Computing</h1>
+                  <img src="../CA2/images/SPSOC.jpg" alt="asd"
+                    class="w-25 img-thumbnail rounded-circle border border-dark ">
+                </div>
+
+                <div class="accordion text-white accordion-flush p-2 m-0">
+                  <div class="accordion-item bg-transparent">
+
+                    <div class=" accordion-body collapse collapsing p-3 container m-0 row bg-dark bg-opacity-50 rounded"
+                      id="mypersonality-1" data-bs-parent="#section3">
+
+                      <p class="col m-0">
+                        <strong class="fs-1 fw-bold">Freshman Orientation Programme</strong><br>
+                        On the first day of school, we were welcomed by our seniors in SP. They held icebreakers for us
+                        to
+                        loosen up as a class, and they held an amazing race that was held around the whole SOC building.
+                        There,
+                        they talked about the different facilities , courses, and clubs available in SOC.
+                      </p>
+
+                      <div class="px-3 mx-3 col d-none d-sm-none d-md-block">
+                        <iframe src="https://www.instagram.com/p/CcXPO06hLMJ/embed" width="250" height="350"
+                          frameborder="0" scrolling="no" allowtransparency="true" class="row"></iframe>
+                      </div>
+
+                      <div class="mt-3 p-3 d-sm-block d-md-none">
+                        <a href="https://www.instagram.com/p/CcXPO06hLMJ/"
+                          class="text-decoration-none mt-3 p-3 icon-light text-nowrap ">
+                          Click here to visit SP'SOC Instagram page.
+                        </a>
+                      </div>
+
+
+                    </div>
+
+
+
+
+
+                  </div>
+
+                  <div class="accordion-item bg-white bg-transparent">
+
+                    <div
+                      class="col accordion-body  collapse collapsing p-2 row text-white m-0 overflow-auto admission-overflow bg-dark bg-opacity-50 text-wrap rounded"
+                      id="mypersonality-2" data-bs-parent="#section3">
+
+                      <div class="row">
+                        <strong class="fs-1 fw-bold">Courses</strong><br>
+                        Singapore Polytechnic offers 4 Different Computing courses. <br>
+                        Scroll down and Click the images below to be redirected to respective courses.
+                      </div>
+
+                      <div class="row">
+
+                        <!-- DIT -->
+                        <div class="card" style="width: 18rem;">
+                          <img src="../CA2/images/Courses/dit.jpg" class="card-img-top" alt="...">
+                          <div class="card-body text-dark">
+                            <h5 class="card-title">Information Technology</h5>
+                            <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/information-technology"
+                              class="btn btn-primary">Go to SP DIT</a>
+                          </div>
+                        </div>
+
+                        <!-- DAAA -->
+                        <div class="card" style="width: 18rem;">
+                          <img src="../CA2/images/Courses/daaa.jpg" class="card-img-top" alt="...">
+                          <div class="card-body text-dark">
+                            <h5 class="card-title">Applied AI & Analytics</h5>
+
+                            <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/applied-AI-and-analytics"
+                              class="btn btn-primary">Go to SP DAAA</a>
+                          </div>
+                        </div>
+
+                        <!--DISM -->
+                        <div class="card" style="width: 18rem;">
+                          <img src="../CA2/images/Courses/dism.jpg" class="card-img-top" alt="...">
+                          <div class="card-body text-dark">
+                            <h5 class="card-title text-wrap">Infocomm Security Management</h5>
+
+                            <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/infocomm-security-management"
+                              class="btn btn-primary">Go to SP DAAA</a>
+                          </div>
+                        </div>
+
+                        <!-- DCITP -->
+                        <div class="card" style="width: 18rem;">
+                          <img src="../CA2/images/Courses/DCITP.jpg" class="card-img-top" alt="...">
+                          <div class="card-body text-dark">
+                            <h5 class="card-title">Common ICT Programme</h5>
+
+                            <a href="https://www.sp.edu.sg/soc/courses/full-time-diplomas/common-ict-programme"
+                              class="btn btn-primary">Go to SP DCITP</a>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+                <div class=" d-flex">
+                  <a href="#mypersonality-1"
+                    class=" hover-underline-animation text-white text-decoration-none  p-2 m-0 border-end"
+                    data-bs-toggle="collapse">Freshman Orientation</a>
+                  <a href="#mypersonality-2" class=" hover-underline-animation text-white text-decoration-none  p-2 m-0"
+                    data-bs-toggle="collapse">Courses</a>
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+      </section>
+    </article>
+
+  </main>
+
+
+
+
+  <!-- Footer -->
+  <footer
+    class="d-flex justify-items-center bg-transparent bg-gradient  text-light py-sm-2 py-md-3 fw-light fixed-bottom ">
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-md">
+          <p class="m-0 fs-6 ">Copyright &copy; James, 2022. All rights reserved.</p>
+        </div>
+
+        <div class="col text-nowrap d-flex align-items-center">
+          <a href="#"><i class="bi bi-instagram mx-4 icon"></i></a>
+          <a href="#"><i class="bi bi-linkedin   mx-4 icon"></i></a>
+          <a href="#"><i class="bi bi-twitter  mx-4 icon"></i></a>
+        </div>
+
+        <div class="col">
+          <a href="#header" class="icon backtotopbtn text-decoration-none align-items-center float-end p-2 d-flex">
+            <i class="bi bi-arrow-up-square justify-content-center"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- JS Features ******************** -->
+  <!-- Typewriter -->
+  <script src="../CA2/Javascript/typewriter.js"></script>
+  <!-- Typewriter taken from https://www.youtube.com/watch?v=POX3dT-pB4E -->
+
+  <!-- On scroll fade in -->
+  <script src="../CA2/Javascript/scroll-anim.js"></script>
+  <!-- Taken from https://www.codingsnow.com/2021/01/reveal-webpage-elements-on-scroll-on.html -->
+
+
+</body>
+
+</html>
